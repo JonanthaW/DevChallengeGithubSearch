@@ -1,0 +1,156 @@
+.resultContainer {
+  display: none;
+}
+
+.goBack {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw;
+}
+
+.goBack img {
+  width: 12vw;
+}
+
+.goBack i {
+  color: white;
+  font-size: 2vw;
+  cursor: pointer;
+}
+
+.userResult {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.userResult .userImage {
+  width: 13vw;
+}
+
+.userImage img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.userInfo {
+  padding: 0vw 2vw;
+}
+
+.userName h2 {
+  color: #8752CC;
+  font-size: 2vw;
+}
+
+.userName h3 {
+  color: #B2B2B2;
+  font-size: 1.2vw;
+}
+
+.userOtherInfo p, .userFollowers p, .userRepoInfo p{
+  color: #B2B2B2;
+  font-size: 1.2vw;
+  padding: 0vw .5vw;
+}
+
+.userOtherInfo i, .userFollowers i, .userRepoInfo i {
+  color: #8752CC;
+  font-size: 1.2vw;
+}
+
+.userLocal {
+  display: flex;
+  padding: 1vw 0vw;
+}
+
+.userFollowers {
+  display: flex;
+  flex-direction: row;
+}
+
+.totalRepository {
+  background-color: #201F1F;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1vw;
+}
+
+ .totalRepository h3 {
+   color: #B2B2B2;
+   font-size: 1.2vw;
+ }
+
+.numberRepo {
+  display: flex;
+  align-items: center;
+  padding: .5vw;
+}
+
+.numberRepo h1 {
+  font-size: 2.5vw;
+  color: #B2B2B2;
+}
+
+.numberRepo i {
+  font-size: 2vw;
+  color: #8752CC;
+  padding-right: 1vw;
+}
+
+
+.userRepoContainer ul {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 2vw;
+  grid-row-gap: 2vw;
+  justify-content: center;
+  list-style: none;
+  padding: 5vw;
+}
+
+.userRepoContainer ul li {
+  background-color: #201F1F;
+  width: 25vw;
+  height: 28vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1vw;
+}
+
+.userRepoContainer ul li h2 {
+  color: #B2B2B2;
+  font-size: 1.5vw;
+  padding-bottom: 1vw;
+}
+.userRepoContainer ul li p {
+  color: #B2B2B2;
+  font-size: 1.1vw;
+  font-weight: normal;
+  word-break: break-all;
+}
+
+.userRepoInfo {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  background-color: #201F1F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: end;
+  width: 100%;
+  height: 8vh;
+}
+
+.footer i {
+  color: #B2B2B2;
+  font-size: 1.8vw;
+  padding: 1vw;
+}

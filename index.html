@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device.width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="assets/fonts/fa/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="content/css/master.css">
+    <link rel="stylesheet" href="content/css/searchContainer.css">
+    <link rel="stylesheet" href="content/css/resultContainer.css">
+    <title>DevChallenge - Github-Search</title>
+  </head>
+  <body>
+    <main>
+      <section class="searchContainer">
+        <div class="logoContainer">
+          <img src="assets/img/logo-vertical.svg" alt="logo-vertical-github">
+        </div>
+        <div class="textContainer">
+          <input type="text" placeholder="Enter user name">
+          <a href="#">Search</a>
+        </div>
+      </section>
+      <section class="resultContainer">
+        <div class="goBack">
+          <img src="assets/img/logo-horizontal.svg" alt="logo-horizontal-github">
+          <i class="fas fa-arrow-left"></i>
+        </div>
+        <div class="userResult">
+          <div class="userImage">
+            <img src="" alt="User Profile Image">
+          </div>
+          <div class="userInfo">
+            <div class="userName">
+              <h2></h2>
+              <h3></h3>
+            </div>
+            <div class="userOtherInfo">
+              <div class="userLocal">
+                <i class="fas fa-map-marker-alt"></i>
+                <p></p>
+                <i class="fas fa-briefcase"></i>
+                <p></p>
+              </div>
+            </div>
+            <div class="userFollowers">
+              <i class="fas fa-user-friends"></i>
+              <p>400</p>
+              <i class="fas fa-users"></i>
+              <p>10</p>
+              <i class="fas fa-star"></i>
+              <p>23</p>
+            </div>
+          </div>
+          <div class="totalRepository">
+            <h3>Total Repositories</h3>
+            <div class="numberRepo">
+              <i class="fas fa-project-diagram"></i>
+              <h1>23</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="userRepoContainer">
+          <ul>
+          </ul>
+        </div>
+
+        <div class="footer">
+          <a href="https://github.com/JonanthaW" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/jonanthaw" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </section>
+    </main>
+
+    <script src="content/js/getContent.js"></script>
+    <script src="content/js/goBack.js"></script>
+  </body>
+</html>
