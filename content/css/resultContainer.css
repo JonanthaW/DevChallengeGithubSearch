@@ -117,9 +117,9 @@
   height: 28vh;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: space-between;
   padding: 1vw;
+  overflow: auto;
 }
 
 .userRepoContainer ul li h2 {
@@ -131,7 +131,7 @@
   color: #B2B2B2;
   font-size: 1.1vw;
   font-weight: normal;
-  word-break: break-all;
+  margin-bottom: 1vw;
 }
 
 .userRepoInfo {
