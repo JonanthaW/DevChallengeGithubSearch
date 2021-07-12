@@ -1,5 +1,5 @@
 <h3 align="center">
-  Projeto DevChallengeGithubSearch
+  DevChallengeGithubSearch
 </h3>
 
 ## :rocket: Sobre a página
