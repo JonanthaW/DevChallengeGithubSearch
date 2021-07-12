@@ -15,5 +15,5 @@ Um site de busca de usuarios e repositorios do github através da sua API!
 
 ### :bulb: Tela da aplicação
 
-![image](https://github.com/JonanthaW/Projeto-DevChallengeGithubSearch/blob/main/assets/example1.jpg)
-![image](https://github.com/JonanthaW/Projeto-DevChallengeGithubSearch/blob/main/assets/example2.jpg)
+![image](https://github.com/JonanthaW/DevChallengeGithubSearch/blob/main/assets/example1.jpg)
+![image](https://github.com/JonanthaW/DevChallengeGithubSearch/blob/main/assets/example2.jpg)
