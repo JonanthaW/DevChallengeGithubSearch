@@ -20,6 +20,8 @@ Um site de busca de usuarios e repositorios do github através da sua API!
 
 ### :computer: Baixando o conteúdo:
 
+<p>Feel free to download this repository and use it however you like. </p>
+
 ```bash
-$ git clone https://github.com/JonanthaW/Arduino-Projects.git
+$ git clone https://github.com/JonanthaW/DevChallengeGithubSearch.git
 ```
