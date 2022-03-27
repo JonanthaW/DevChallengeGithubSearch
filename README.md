@@ -17,3 +17,9 @@ Um site de busca de usuarios e repositorios do github através da sua API!
 
 ![image](https://github.com/JonanthaW/DevChallengeGithubSearch/blob/main/assets/example1.jpg)
 ![image](https://github.com/JonanthaW/DevChallengeGithubSearch/blob/main/assets/example2.jpg)
+
+### :computer: Baixando o conteúdo:
+
+```bash
+$ git clone https://github.com/JonanthaW/Arduino-Projects.git
+```
